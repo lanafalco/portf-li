@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Meu portfólio</title>
+</head>
+
+<body>
+  <header class="container text-center my-5">
+    <img src="img/Meu avatar.jpeg" alt="avatar da Bueno_" class="rounded-circle" width="150" height="150">
+    <p id="saulo" class="lead">Eu sou Alana Falco</p>
+    <h1 class="fortnite">Vamos conversar sobre o Vôlei</h1>
+    <p class="jogo">Meu esporte favorito</p>
+    <p class="começo">É um esporte</p>
+    <div class="d-flex justify-content-center gap-2">
+      <span class="badge bg-secondary">Coletividade</span>
+      <span class="badge bg-secondary">Ritmo rápido</span>
+      <span class="badge bg-secondary">Regras específicas de toques</span>
+    </div>
+  </header>
+
+  <main class="container mt-5">
+    <div class="row g-4">
+      <!-- Projeto 1 -->
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img src="img/volei _n.jpg" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+          <div class="card-body">
+            <h5 class="card-title">O que é esse Esporte?</h5>
+            <p class="card-text">Nesse bloco vocês irão entender o que é.</p>
+            <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1" id="nao">Veja o projeto</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Projeto 2 -->
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img src="img/história do vôlei.jpg" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+          <div class="card-body">
+            <h5 class="card-title">História do Vôlei</h5>
+            <p class="card-text">De onde surgiu o Vôlei?</p>
+            <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2" id="vejao">Veja o projeto</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Projeto 3 -->
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img src="img/time.webp" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+          <div class="card-body">
+            <h5 class="card-title">Fundamentos do Vôlei</h5>
+            <p class="card-text">O Vôlei é um esporte que como todos, com fundamentos que definem funções dos jogadores, sendo elas.</p>
+            <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3" id="projeto">Veja o projeto</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Modal 1 -->
+  <div class="modal fade" id="modal1" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">  🏐</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+        </div>
+        <div class="modal-body">
+          <p>O vôlei, ou voleibol, é um esporte coletivo jogado entre duas equipes de seis jogadores em uma quadra dividida por uma rede. O objetivo é fazer a bola tocar o chão do lado adversário, utilizando no máximo três toques por equipe antes de devolvê-la .</p>
+          <img src="img/quadra.png" class="img-fluid w-100">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 2 -->
+  <div class="modal fade" id="modal2" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">História</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+        </div>
+        <div class="modal-body">
+          <p>O voleibol foi criado em 9 de fevereiro de 1895, por William George Morgan, nos Estados Unidos. Ele era diretor de Educação Física na ACM (Associação Cristã de Moços) em Holyoke, Massachusetts.
+
+            Morgan queria um esporte que fosse menos agressivo do que o basquete (recém-criado na época) e que pudesse ser praticado por pessoas de todas as idades. Ele então criou o "mintonette", nome original do voleibol, que misturava elementos do tênis, basquete, beisebol e handebol.</p>
+          <img src="img/criador.jpg" class="img-fluid w-100">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 3 -->
+  <div class="modal fade" id="modal3" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Fundamentos do jogo</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+        </div>
+       
+        <div class="modal-body">
+          <p></p>
+          <ul>
+            <li>Saque: Inicia o ponto; pode ser realizado de forma simples ou em salto, visando dificultar a recepção adversária.</li>
+            <li>Recepção: Primeiro toque após o saque adversário, geralmente feito com os antebraços, para controlar a bola e direcioná-la ao levantador.</li>
+            <li>Levantamento: Segundo toque, realizado para posicionar a bola adequadamente para o ataque.</li>
+            <li>Ataque (ou Cortada): Terceiro toque, onde o jogador tenta finalizar a jogada enviando a bola ao chão do lado adversário.</li>
+            <li>Bloqueio: Ação defensiva próxima à rede, com o objetivo de interceptar ou dificultar o ataque adversário.</li>
+            <li>Defesa: Ações realizadas para evitar que a bola toque o chão após ataques adversários, mantendo-a em jogo .</li>
+          </ul>
+
+          <img src="img/fundamentos.jpg" class="img-fluid w-100">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Script do Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
+
+<center><h2>Contato</h2></center>
+        <div>
+           <center><h2><a class="you" href="https://www.instagram.com/itzx_alana?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">Instagram😉</a></h2></center>
+        </div>
+        <h3 id="tesao" class="my-5 text-center">Feito por Alana</h3>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
